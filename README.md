@@ -14,6 +14,7 @@ A beautiful, modern Next.js dashboard with a pastel pink color scheme.
 
 ## 🎨 Design Highlights
 
+
 - **Color Palette**: Soft pastel pinks (#FFB6D9, #FFC0D0, #FFD4E5)
 - **Gradients**: Beautiful gradient backgrounds
 - **Modern UI**: Clean cards, smooth shadows, and elegant typography
