@@ -4,8 +4,8 @@ import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
 import ThemeRegistry from '@/components/ThemeRegistry';
 
 export const metadata: Metadata = {
-  title: "CU Component Library Dashboard",
-  description: "University Practical - Experiment 2: Design UI using Component Libraries",
+  title: "Pastel Pink Dashboard",
+  description: "Beautiful pastel pink themed dashboard application",
 };
 
 export default function RootLayout({
