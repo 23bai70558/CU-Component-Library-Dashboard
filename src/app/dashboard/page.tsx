@@ -8,7 +8,7 @@ import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Container from '@mui/material/Container';
-import Grid from '@mui/material/Grid';
+// using Box-based CSS grid for layout to avoid Grid typing/import issues
 import Typography from '@mui/material/Typography';
 
 const tableData: TableRow[] = [
@@ -62,8 +62,15 @@ export default function DashboardPage() {
         </Box>
 
         {/* Stats Cards */}
-        <Grid container spacing={3} sx={{ mb: 5 }}>
-          <Grid item xs={12} sm={6}>
+        <Box
+          sx={{
+            display: 'grid',
+            gridTemplateColumns: { xs: '1fr', sm: '1fr 1fr' },
+            gap: 3,
+            mb: 5,
+          }}
+        >
+          <Box>
             <Card
               sx={{
                 background: 'linear-gradient(135deg, #FFB6D9 0%, #FFC0D0 100%)',
@@ -91,9 +98,9 @@ export default function DashboardPage() {
                 </Typography>
               </CardContent>
             </Card>
-          </Grid>
+          </Box>
 
-          <Grid item xs={12} sm={6}>
+          <Box>
             <Card
               sx={{
                 background: 'linear-gradient(135deg, #FFD4E5 0%, #FFB6D9 100%)',
@@ -121,8 +128,8 @@ export default function DashboardPage() {
                 </Typography>
               </CardContent>
             </Card>
-          </Grid>
-        </Grid>
+          </Box>
+        </Box>
 
         {/* Users Section */}
         <Card
