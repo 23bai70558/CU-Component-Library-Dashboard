@@ -1,253 +1,93 @@
 # CU Component Library Dashboard
 
-## 📋 Project Overview
+A simple Next.js application demonstrating basic UI components using Material UI.
 
-**Experiment 2: Design UI using Component Libraries**
+## Features
 
-A production-grade Next.js TypeScript application demonstrating comprehensive UI component library implementation using Material UI. Built for university practical evaluation showcasing modern web development best practices.
+- Dashboard with stat cards
+- User management table
+- Login and registration pages
+- User profile page
+- Responsive mobile-friendly design
 
----
+## Tech Stack
 
-## 🎯 Project Objectives
+- Next.js 15
+- TypeScript
+- Material UI
+- Emotion CSS
 
-This project fulfills all requirements for Experiment 2:
+## Quick Start
 
-✅ **Navigation Components**
-- Fixed top navigation bar with menu toggle
-- Responsive sidebar with route-based highlighting
-- Mobile-friendly collapsible drawer
-
-✅ **Dashboard Features**
-- 4 stat cards with icons and metrics
-- Responsive grid layout (4-column on desktop, stacked on mobile)
-- Hover animations and visual feedback
-
-✅ **Data Management**
-- Interactive data table with sample dataset
-- Status badges with color coding
-- Hover effects and accessibility features
-
-✅ **Authentication**
-- Login page with validation
-- Registration form with multi-field validation
-- Client-side error handling
-- Success/error alerts
-
-✅ **UI Components**
-- Modal dialogs for confirmations
-- Alert notifications
-- Material Design principles
-- Custom CU branding theme
-
-✅ **Responsive Design**
-- Mobile-first approach
-- Breakpoint-based layout changes
-- Touch-friendly interface
-
-✅ **Accessibility**
-- Semantic HTML components
-- ARIA labels
-- Keyboard navigation support
-- High color contrast ratios
-
----
-
-## 🛠️ Tech Stack
-
-- **Framework:** Next.js 15 (App Router)
-- **Language:** TypeScript (100% - Zero JS files)
-- **UI Library:** Material UI v6
-- **Styling:** Emotion CSS-in-JS
-- **Icons:** Material Icons
-- **Deployment:** Vercel-ready
-
----
-
-## 📁 Project Structure
-
-```
-exp2/
-├── src/
-│   ├── app/
-│   │   ├── dashboard/
-│   │   │   └── page.tsx          # Main dashboard with stats & table
-│   │   ├── login/
-│   │   │   └── page.tsx          # Login form page
-│   │   ├── register/
-│   │   │   └── page.tsx          # Registration form page
-│   │   ├── profile/
-│   │   │   └── page.tsx          # User profile page
-│   │   ├── settings/
-│   │   │   └── page.tsx          # Settings page
-│   │   ├── layout.tsx            # Root layout with theme provider
-│   │   ├── page.tsx              # Home page (redirects to dashboard)
-│   │   └── globals.css           # Global styles
-│   │
-│   ├── components/
-│   │   ├── Navbar.tsx            # Top navigation bar
-│   │   ├── Sidebar.tsx           # Collapsible sidebar menu
-│   │   ├── StatCard.tsx          # Dashboard metric cards
-│   │   ├── DataTable.tsx         # User data table
-│   │   ├── AuthForm.tsx          # Reusable auth form
-│   │   ├── ConfirmDialog.tsx     # Modal confirmation dialog
-│   │   └── ThemeRegistry.tsx     # Theme provider wrapper
-│   │
-│   ├── theme/
-│   │   └── theme.ts              # MUI theme configuration (CU branding)
-│   │
-│   └── types/
-│       ├── dashboard.ts          # Dashboard type definitions
-│       ├── auth.ts               # Authentication types
-│       └── layout.ts             # Layout component types
-│
-├── public/                       # Static assets
-├── package.json
-├── tsconfig.json
-└── next.config.ts
+### Install Dependencies
+```bash
+npm install
 ```
 
----
+### Run Development Server
+```bash
+npm run dev
+```
 
-## 🎨 Design Features
-
-### Custom Theme
-- **Primary Color:** `#c00000` (CU Red)
-- **Secondary Color:** `#808080` (Grey)
-- **Typography:** Roboto font family
-- **Border Radius:** 8px (cards: 12px)
-- **No uppercase buttons** (Material design)
-
-### Responsive Breakpoints
-- **xs:** < 600px (Mobile)
-- **sm:** ≥ 600px (Tablet)
-- **md:** ≥ 900px (Desktop)
-- **lg:** ≥ 1200px (Large Desktop)
-
----
-
-## 🚀 Setup Instructions
-
-### Prerequisites
-- Node.js 18+ 
-- npm or yarn
-
-### Installation
-
-1. **Clone/Navigate to project:**
-   ```bash
-   cd exp2
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Run development server:**
-   ```bash
-   npm run dev
-   ```
-
-4. **Open browser:**
-   Navigate to [http://localhost:3000](http://localhost:3000)
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ### Build for Production
-
 ```bash
 npm run build
 npm start
 ```
 
----
+## Project Structure
 
-## 📸 Screenshots
+```
+src/
+├── app/           # Pages
+├── components/    # Reusable components
+├── theme/        # Theme configuration
+└── types/        # TypeScript types
+```
 
-### Dashboard
-*Main dashboard showing 4 stat cards and user management table*
+## Pages
 
-### Login Page
-*Authentication form with email/password validation*
+- **Dashboard** - Overview with stat cards and user table
+- **Login** - User login form
+- **Register** - User registration form
+- **Profile** - User profile display
+- **Settings** - Application settings
 
-### Registration Page
-*Multi-field form with confirm password validation*
+## Components
 
-### Profile Page
-*User profile with avatar and details*
+- **Navbar** - Top navigation bar
+- **Sidebar** - Navigation menu
+- **StatCard** - Metric cards
+- **DataTable** - User data display
+- **AuthForm** - Login/registration forms
 
-### Settings Page
-*Application settings with toggle switches*
+## Learning Outcomes
 
----
+This project demonstrates:
+- Component-based architecture
+- TypeScript for type safety
+- Responsive design
+- Form validation
+- Material Design principles
+- Navigation patterns
 
-## 🔑 Key Features Implemented
+## 🎓 Academic Information
 
-### 1. Type Safety
-- All components strongly typed with TypeScript interfaces
-- Zero `any` types used
-- Comprehensive type definitions in `/types` directory
+**Course:** Full Stack Web Development  
+**Project:** Simple Component Library Dashboard  
+**Developer:** John Smith  
+**Email:** john.smith@university.edu  
+**University:** Chandigarh University  
 
-### 2. Validation
-- Email format validation (regex)
-- Password strength requirements (min 6 chars)
-- Confirm password matching
-- Real-time error display
+## License
 
-### 3. Performance
-- Named imports (no barrel abuse)
-- Component-level code splitting
-- Optimized bundle size
-- No wildcard imports
+Educational project for university coursework.
 
-### 4. Accessibility
-- Semantic HTML elements
-- ARIA labels on interactive elements
-- Keyboard navigation support
-- Focus management in modals
-- Color contrast compliance
+**Version:** 1.0.0  
+**Last Updated:** February 2026
 
-### 5. Responsive Design
-- Mobile-first CSS
-- Breakpoint-based layouts
-- Touch-friendly buttons (min 44x44px)
-- Collapsible sidebar for small screens
-
----
-
-## 🌐 Deployment
-
-### Vercel Deployment
-
-1. **Push to GitHub:**
-   ```bash
-   git init
-   git add .
-   git commit -m "Complete Next.js MUI Dashboard"
-   git push
-   ```
-
-2. **Deploy on Vercel:**
-   - Visit [vercel.com](https://vercel.com)
-   - Import GitHub repository
-   - Auto-detected Next.js settings
-   - Deploy
-
-**Live Demo:** `[Your Vercel URL will appear here]`
-
----
-
-## 📚 Component Documentation
-
-### StatCard Component
-**Props:**
-- `data: StatCardData` - Card content (title, value, icon, color)
-
-**Features:**
-- Hover lift animation
-- Icon with colored circular background
-- Optional description text
-
-### DataTable Component
-**Props:**
 - `rows: TableRow[]` - Array of user data
 
 **Features:**
@@ -348,7 +188,7 @@ npm start
 
 **Course:** Full Stack Web Development  
 **Experiment:** 2 - Design UI using Component Libraries  
-**Submitted by:** Harsh Jain  
+**Submitted by:** John Smith  
 **University:** Chandigarh University  
 
 **Learning Outcomes Achieved:**
@@ -378,8 +218,8 @@ npm start
 
 ## 📞 Contact
 
-**Developer:** Harsh Jain  
-**Email:** harsh.jain@university.edu  
+**Developer:** John Smith  
+**Email:** john.smith@university.edu  
 **GitHub:** [Your GitHub Profile]
 
 ---

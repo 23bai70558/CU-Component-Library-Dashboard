@@ -17,11 +17,6 @@ export default function StatCard({ data }: StatCardProps) {
         height: '100%',
         display: 'flex',
         flexDirection: 'column',
-        transition: 'transform 0.2s, box-shadow 0.2s',
-        '&:hover': {
-          transform: 'translateY(-4px)',
-          boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
-        },
       }}
     >
       <CardContent>
@@ -54,11 +49,6 @@ export default function StatCard({ data }: StatCardProps) {
         <Typography variant="h3" component="div" fontWeight="bold">
           {data.value}
         </Typography>
-        {data.description && (
-          <Typography variant="body2" color="text.secondary" sx={{ mt: 1 }}>
-            {data.description}
-          </Typography>
-        )}
       </CardContent>
     </Card>
   );

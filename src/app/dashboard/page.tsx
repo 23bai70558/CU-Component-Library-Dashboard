@@ -22,28 +22,24 @@ const statCardsData: StatCardData[] = [
     value: '2,543',
     icon: <PeopleIcon />,
     color: '#c00000',
-    description: '+12% from last month',
   },
   {
     title: 'Active Projects',
     value: '127',
     icon: <FolderIcon />,
     color: '#1976d2',
-    description: '23 pending approval',
   },
   {
     title: 'Revenue',
     value: '₹45.2L',
     icon: <AttachMoneyIcon />,
     color: '#2e7d32',
-    description: '+18% from last quarter',
   },
   {
     title: 'Completion Rate',
     value: '94.3%',
     icon: <TrendingUpIcon />,
     color: '#ed6c02',
-    description: 'Above target',
   },
 ];
 
@@ -133,9 +129,6 @@ export default function DashboardPage() {
       <Box sx={{ mb: 3 }}>
         <Typography variant="h5" component="h2" fontWeight="bold" gutterBottom>
           User Management
-        </Typography>
-        <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
-          Overview of all registered users in the system
         </Typography>
       </Box>
 
