@@ -59,6 +59,9 @@ export default function DashboardPage() {
           <Typography variant="body1" sx={{ color: '#999', fontSize: '16px' }}>
             Manage your data and insights
           </Typography>
+          <Typography variant="caption" sx={{ color: '#C2185B', display: 'block', mt: 1 }}>
+            Build: 4dfa4f2
+          </Typography>
         </Box>
 
         {/* Stats Cards */}
