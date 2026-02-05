@@ -42,13 +42,13 @@ npm start
 
 ## Developer
 
-**Name:** Shaily Chauhan  
-**Email:** shaily.chauhan@university.edu  
+**Name:** Shaily Chauhan
+**Email:** shaily.chauhan@university.edu
 **University:** Chandigarh University
 
 ---
 
-**Version:** 1.0.0  
+**Version:** 1.0.0
 **Last Updated:** February 2026
 - `onSubmit: (data) => Promise<void>` - Submit handler
 
@@ -138,10 +138,10 @@ npm start
 
 ## 🎓 Academic Compliance
 
-**Course:** Full Stack Web Development  
-**Experiment:** 2 - Design UI using Component Libraries  
-**Submitted by:** John Smith  
-**University:** Chandigarh University  
+**Course:** Full Stack Web Development
+**Experiment:** 2 - Design UI using Component Libraries
+**Submitted by:** John Smith
+**University:** Chandigarh University
 
 **Learning Outcomes Achieved:**
 1. ✅ Understanding of component-based architecture
@@ -170,8 +170,8 @@ npm start
 
 ## 📞 Contact
 
-**Developer:** John Smith  
-**Email:** john.smith@university.edu  
+**Developer:** John Smith
+**Email:** john.smith@university.edu
 **GitHub:** [Your GitHub Profile]
 
 ---
@@ -182,7 +182,7 @@ This project is created for educational purposes as part of university coursewor
 
 ---
 
-**Last Updated:** February 2026  
-**Version:** 1.0.0  
+**Last Updated:** February 2026
+**Version:** 1.0.0
 **Status:** ✅ Evaluation Ready
 

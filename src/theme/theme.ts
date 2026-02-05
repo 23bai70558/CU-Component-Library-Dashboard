@@ -6,20 +6,32 @@ const theme = createTheme({
   palette: {
     mode: 'light',
     primary: {
-      main: '#c00000',
-      light: '#e63946',
-      dark: '#a50000',
-      contrastText: '#ffffff',
+      main: '#FFB6D9',
+      light: '#FFD4E5',
+      dark: '#FF99C8',
+      contrastText: '#FFFFFF',
     },
     secondary: {
-      main: '#808080',
-      light: '#a0a0a0',
-      dark: '#606060',
-      contrastText: '#ffffff',
+      main: '#FFC0D0',
+      light: '#FFD9E3',
+      dark: '#FFB3C1',
+      contrastText: '#FFFFFF',
     },
     background: {
-      default: '#f5f5f5',
-      paper: '#ffffff',
+      default: '#FFF5F8',
+      paper: '#FFFFFF',
+    },
+    success: {
+      main: '#FFB6D9',
+    },
+    error: {
+      main: '#FF99C8',
+    },
+    warning: {
+      main: '#FFD4E5',
+    },
+    info: {
+      main: '#FFC0D0',
     },
   },
   typography: {
