@@ -1,5 +1,78 @@
 # Pastel Pink Dashboard
 
+A modern, beginner-friendly Next.js dashboard with a pastel pink theme.
+
+## What changed
+
+- Full redesign to a pastel pink color palette and gradients.
+- Simplified layout for beginners (minimal pages and components).
+- Profile updated to `Shaily Chauhan`.
+
+## Quick Start (local)
+
+Install dependencies and run the development server:
+
+```bash
+npm install
+npm run dev
+```
+
+Build for production locally:
+
+```bash
+npm run build
+```
+
+If the build completes successfully, you can run the production server:
+
+```bash
+npm start
+```
+
+## Deployment (Vercel)
+
+This project is configured to deploy on Vercel. After pushing to `main`, Vercel should automatically rebuild and redeploy.
+
+If you do not see the pastel theme on the live site after a successful push:
+
+- Wait 2–5 minutes for Vercel to finish the build and deploy.
+- Hard-refresh the site in your browser (Ctrl+Shift+R or Ctrl+F5).
+- Open the site in a private/incognito window to bypass caching.
+- Check your Vercel dashboard build logs for errors.
+
+## Theme & Styling
+
+- Primary: `#FFB6D9` (Pastel Pink)
+- Secondary: `#FFC0D0` (Light Pink)
+- Accent: `#FFD4E5`
+- Background: `#FFF5F8`
+
+Key files updated for the theme:
+
+- `src/theme/theme.ts`
+- `src/app/globals.css`
+- `src/app/dashboard/page.tsx`
+- `src/app/profile/page.tsx`
+- `src/components/Navbar.tsx`
+- `src/components/Sidebar.tsx`
+- `src/components/DataTable.tsx`
+
+## Notes
+
+- I ran a local production build (`npm run build`) and fixed build errors (Grid -> CSS grid). The build completed successfully.
+- If you want, I can trigger a fresh commit to force a Vercel rebuild or help inspect Vercel logs.
+
+## Developer
+
+**Name:** Shaily Chauhan  
+**Email:** shaily.chauhan@university.edu
+
+---
+
+**Version:** 2.0.1  
+**Last Updated:** February 2026
+# Pastel Pink Dashboard
+
 A beautiful, modern Next.js dashboard with a pastel pink color scheme.
 
 ## ✨ Features
