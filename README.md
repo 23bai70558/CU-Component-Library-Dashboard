@@ -1,103 +1,55 @@
-# CU Component Library Dashboard
+# Simple Dashboard
 
-A simple Next.js application demonstrating basic UI components using Material UI.
+A beginner-friendly Next.js application with basic components.
 
 ## Features
 
-- Dashboard with stat cards
-- User management table
-- Login and registration pages
+- Dashboard page with stat cards
+- User table display
 - User profile page
-- Responsive mobile-friendly design
+- Login/Register pages
+- Simple responsive design
+
+## Quick Start
+
+```bash
+npm install
+npm run dev
+```
+
+Visit http://localhost:3000
+
+## Build for Production
+
+```bash
+npm run build
+npm start
+```
 
 ## Tech Stack
 
 - Next.js 15
 - TypeScript
 - Material UI
-- Emotion CSS
-
-## Quick Start
-
-### Install Dependencies
-```bash
-npm install
-```
-
-### Run Development Server
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### Build for Production
-```bash
-npm run build
-npm start
-```
-
-## Project Structure
-
-```
-src/
-├── app/           # Pages
-├── components/    # Reusable components
-├── theme/        # Theme configuration
-└── types/        # TypeScript types
-```
 
 ## Pages
 
-- **Dashboard** - Overview with stat cards and user table
-- **Login** - User login form
-- **Register** - User registration form
-- **Profile** - User profile display
-- **Settings** - Application settings
+- Dashboard - Stat cards and user list
+- Profile - User information
+- Login - Login form
+- Register - Registration form
+- Settings - Settings page
 
-## Components
+## Developer
 
-- **Navbar** - Top navigation bar
-- **Sidebar** - Navigation menu
-- **StatCard** - Metric cards
-- **DataTable** - User data display
-- **AuthForm** - Login/registration forms
+**Name:** Shaily Chauhan  
+**Email:** shaily.chauhan@university.edu  
+**University:** Chandigarh University
 
-## Learning Outcomes
-
-This project demonstrates:
-- Component-based architecture
-- TypeScript for type safety
-- Responsive design
-- Form validation
-- Material Design principles
-- Navigation patterns
-
-## 🎓 Academic Information
-
-**Course:** Full Stack Web Development  
-**Project:** Simple Component Library Dashboard  
-**Developer:** John Smith  
-**Email:** john.smith@university.edu  
-**University:** Chandigarh University  
-
-## License
-
-Educational project for university coursework.
+---
 
 **Version:** 1.0.0  
 **Last Updated:** February 2026
-
-- `rows: TableRow[]` - Array of user data
-
-**Features:**
-- Sortable columns
-- Status badges with color mapping
-- Hover row highlighting
-
-### AuthForm Component
-**Props:**
-- `type: 'login' | 'register'` - Form type
 - `onSubmit: (data) => Promise<void>` - Submit handler
 
 **Features:**

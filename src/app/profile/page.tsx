@@ -5,79 +5,35 @@ import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Avatar from '@mui/material/Avatar';
-import Grid from '@mui/material/Grid';
-import Divider from '@mui/material/Divider';
-import Chip from '@mui/material/Chip';
 import PersonIcon from '@mui/icons-material/Person';
 
 export default function ProfilePage() {
   return (
-    <Container maxWidth="lg">
-      <Typography variant="h4" component="h1" fontWeight="bold" gutterBottom>
-        User Profile
+    <Container maxWidth="md">
+      <Typography variant="h4" component="h1" fontWeight="bold" gutterBottom sx={{ mt: 3 }}>
+        Profile
       </Typography>
       
-      <Paper elevation={2} sx={{ p: 4, mt: 3 }}>
-        <Box sx={{ display: 'flex', alignItems: 'center', mb: 3 }}>
+      <Paper elevation={2} sx={{ p: 3, mt: 3 }}>
+        <Box sx={{ display: 'flex', alignItems: 'center', gap: 3 }}>
           <Avatar
             sx={{
-              width: 100,
-              height: 100,
+              width: 80,
+              height: 80,
               bgcolor: 'primary.main',
-              mr: 3,
             }}
           >
-            <PersonIcon sx={{ fontSize: 60 }} />
+            <PersonIcon sx={{ fontSize: 50 }} />
           </Avatar>
           <Box>
             <Typography variant="h5" fontWeight="bold">
-              John Smith
+              Shaily Chauhan
             </Typography>
-            <Typography variant="body1" color="text.secondary">
-              john.smith@university.edu
+            <Typography variant="body1" color="text.secondary" sx={{ mt: 1 }}>
+              shaily.chauhan@university.edu
             </Typography>
-            <Box sx={{ mt: 1 }}>
-              <Chip label="Active" color="success" size="small" />
-            </Box>
           </Box>
         </Box>
-
-        <Divider sx={{ my: 3 }} />
-
-        <Grid container spacing={3}>
-          <Grid size={{ xs: 12, md: 6 }}>
-            <Typography variant="subtitle2" color="text.secondary">
-              Student ID
-            </Typography>
-            <Typography variant="body1" fontWeight="500">
-              2024CS001
-            </Typography>
-          </Grid>
-          <Grid size={{ xs: 12, md: 6 }}>
-            <Typography variant="subtitle2" color="text.secondary">
-              Department
-            </Typography>
-            <Typography variant="body1" fontWeight="500">
-              Computer Science
-            </Typography>
-          </Grid>
-          <Grid size={{ xs: 12, md: 6 }}>
-            <Typography variant="subtitle2" color="text.secondary">
-              Semester
-            </Typography>
-            <Typography variant="body1" fontWeight="500">
-              6th Semester
-            </Typography>
-          </Grid>
-          <Grid size={{ xs: 12, md: 6 }}>
-            <Typography variant="subtitle2" color="text.secondary">
-              Enrollment Year
-            </Typography>
-            <Typography variant="body1" fontWeight="500">
-              2022
-            </Typography>
-          </Grid>
-        </Grid>
       </Paper>
     </Container>
   );
