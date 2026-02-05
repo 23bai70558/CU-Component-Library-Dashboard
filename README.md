@@ -1,16 +1,25 @@
-# Simple Dashboard
+# Pastel Pink Dashboard
 
-A beginner-friendly Next.js application with basic components.
+A beautiful, modern Next.js dashboard with a pastel pink color scheme.
 
-## Features
+## ✨ Features
 
-- Dashboard page with stat cards
-- User table display
-- User profile page
-- Login/Register pages
-- Simple responsive design
+- Modern pastel pink theme
+- Responsive dashboard with stat cards
+- User management table
+- Beautiful profile page
+- Smooth animations and transitions
+- Mobile-friendly design
+- Clean, minimalist interface
 
-## Quick Start
+## 🎨 Design Highlights
+
+- **Color Palette**: Soft pastel pinks (#FFB6D9, #FFC0D0, #FFD4E5)
+- **Gradients**: Beautiful gradient backgrounds
+- **Modern UI**: Clean cards, smooth shadows, and elegant typography
+- **Responsive**: Works perfectly on all devices
+
+## 🚀 Quick Start
 
 ```bash
 npm install
@@ -19,34 +28,39 @@ npm run dev
 
 Visit http://localhost:3000
 
-## Build for Production
+## 📦 Build for Production
 
 ```bash
 npm run build
 npm start
 ```
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - Next.js 15
 - TypeScript
-- Material UI
+- Material UI (MUI)
+- Emotion CSS
 
-## Pages
+## 📄 Pages
 
-- Dashboard - Stat cards and user list
-- Profile - User information
-- Login - Login form
-- Register - Registration form
-- Settings - Settings page
+- **Dashboard** - Main page with stats and user list
+- **Profile** - User profile with beautiful card design
+- **Login** - User authentication
+- **Register** - User registration
+- **Settings** - App settings
 
-## Developer
+## 👤 Developer
 
 **Name:** Shaily Chauhan
 **Email:** shaily.chauhan@university.edu
 **University:** Chandigarh University
 
 ---
+
+**Version:** 2.0.0 (Redesigned)
+**Last Updated:** February 2026
+**Theme:** Pastel Pink Modern Design
 
 **Version:** 1.0.0
 **Last Updated:** February 2026
